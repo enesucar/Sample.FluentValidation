@@ -1,0 +1,12 @@
+C:\Users\Enes\Desktop\Works\Samples\FluentValidation\Northwind\src\Northwind.Shared\bin\Debug\net8.0\Northwind.Shared.deps.json
+C:\Users\Enes\Desktop\Works\Samples\FluentValidation\Northwind\src\Northwind.Shared\bin\Debug\net8.0\Northwind.Shared.dll
+C:\Users\Enes\Desktop\Works\Samples\FluentValidation\Northwind\src\Northwind.Shared\bin\Debug\net8.0\Northwind.Shared.pdb
+C:\Users\Enes\Desktop\Works\Samples\FluentValidation\Northwind\src\Northwind.Shared\obj\Debug\net8.0\Northwind.Shared.csproj.AssemblyReference.cache
+C:\Users\Enes\Desktop\Works\Samples\FluentValidation\Northwind\src\Northwind.Shared\obj\Debug\net8.0\Northwind.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Enes\Desktop\Works\Samples\FluentValidation\Northwind\src\Northwind.Shared\obj\Debug\net8.0\Northwind.Shared.AssemblyInfoInputs.cache
+C:\Users\Enes\Desktop\Works\Samples\FluentValidation\Northwind\src\Northwind.Shared\obj\Debug\net8.0\Northwind.Shared.AssemblyInfo.cs
+C:\Users\Enes\Desktop\Works\Samples\FluentValidation\Northwind\src\Northwind.Shared\obj\Debug\net8.0\Northwind.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Enes\Desktop\Works\Samples\FluentValidation\Northwind\src\Northwind.Shared\obj\Debug\net8.0\Northwind.Shared.dll
+C:\Users\Enes\Desktop\Works\Samples\FluentValidation\Northwind\src\Northwind.Shared\obj\Debug\net8.0\refint\Northwind.Shared.dll
+C:\Users\Enes\Desktop\Works\Samples\FluentValidation\Northwind\src\Northwind.Shared\obj\Debug\net8.0\Northwind.Shared.pdb
+C:\Users\Enes\Desktop\Works\Samples\FluentValidation\Northwind\src\Northwind.Shared\obj\Debug\net8.0\ref\Northwind.Shared.dll

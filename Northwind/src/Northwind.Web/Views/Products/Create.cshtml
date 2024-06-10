@@ -1,0 +1,49 @@
+﻿@using Northwind.Shared.Models
+@model Product
+
+@{
+    ViewData["Title"] = "Create Product";
+    var message = ViewData["Message"] as string;
+}
+
+@if (message != null)
+{
+    <div class="alert alert-info" role="alert">
+        @message
+    </div>
+}
+
+<div asp-validation-summary="All" class="text-danger mb-3" role="alert"></div>
+
+<form id="create-product-form" class="mb-3" asp-controller="Products" asp-action="Create" method="POST">
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <label asp-for="@Model.Name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" asp-for="@Model.Name">
+            <span asp-validation-for="@Model.Name" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="@Model.QuantityPerUnit" class="form-label">Quantity Per Unit</label>
+            <input type="text" class="form-control" id="quantity-per-unit" asp-for="@Model.QuantityPerUnit">
+            <span asp-validation-for="@Model.QuantityPerUnit" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="@Model.UnitsInStock" class="form-label">Units In Stock</label>
+            <input type="text" class="form-control" id="units-in-stock" asp-for="@Model.UnitsInStock">
+            <span asp-validation-for="@Model.UnitsInStock" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label asp-for="@Model.Status" class="form-label">Status</label>
+            <select class="form-select" id="status" asp-for="@Model.Status" asp-items="Html.GetEnumSelectList<ProductStatus>()"></select>
+            <span asp-validation-for="@Model.Status" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="@Model.Category.Name" class="form-label">Category Name</label>
+            <input type="text" class="form-control" id="category-name" asp-for="@Model.Category.Name">
+            <span asp-validation-for="@Model.Category.Name" class="text-danger"></span>
+        </div>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit</button>
+</form>

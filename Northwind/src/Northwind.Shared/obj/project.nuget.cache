@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "subhfBwo0scJRNEYzHMbCr+WZK1fs4UitX3pCdphPnXoPC2pYOnG6cVfIS6UgEmCTWor3M681ynyoNeadJ6v+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Enes\\Desktop\\Works\\Samples\\FluentValidation\\Northwind\\src\\Northwind.Shared\\Northwind.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Enes\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "Northwind.API.Controllers.CategoriesController",
+    "Method": "Create",
+    "RelativePath": "api/v1/Categories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "Northwind.Shared.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Northwind.API.Controllers.ProductsController",
+    "Method": "Create",
+    "RelativePath": "api/v1/Products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Northwind.Shared.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
